@@ -36,10 +36,4 @@ jobs:
           echo test, and deploy your project.
           python3 -V
           touch file_workflow.py
-          le -l
-
-      # Creation commit
-      - name: Make my first commit
-        run: |
-          git commit -m 'My first action'
-          git push
+          ls -l
